@@ -4,11 +4,11 @@
 # or whitespace (' ').
 class EmailAddressParser
   attr_accessor :emails
-  @@emails = []
+  @emails = []
   
   def initialize(emails)
     emails = self.new
-    @@emails << emails
+    @emails << emails
   end
   
   def parse
